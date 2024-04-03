@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#todoForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#todoForm input[type='text'],
+#todoForm input[type='date'],
+#addTodoButton {
+  font-size: 16px;
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#addTodoButton {
+  background-color: gold;
+  color: #fff;
+  cursor: pointer;
+}
+
+#addTodoButton:hover {
+  background-color: #daa520;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+button {
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+button:hover {
+  color: #777;
+}
